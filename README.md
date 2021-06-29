@@ -4,8 +4,8 @@
 This simple project is designed to test the new scripting capabilities introduced in the Shortcuts app in macOS Monterey beta 2 (21A5268h).
 
 ScriptingBridge demo code was shown in the ['Meet Shortcuts For macOS'][1] WWDC 2021 video along with [the entitlements][2] required to run it.
- 
-The ScriptingBridge code currently doesn't work.
+
+An NSAppleEventsUsageDescription string is has to be added to info.plist or it will silently fail. 
  
 ![run shortcut screenshot](https://i.imgur.com/Z5v0eN3.png)
 ![list shortcuts screenshot](https://i.imgur.com/2sDpYsK.png)
